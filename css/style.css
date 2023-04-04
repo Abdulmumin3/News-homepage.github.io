@@ -1,0 +1,331 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 93.75%;
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+.nav-header {
+  padding: 2rem 4.1rem 0rem 4.1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+  position: relative; }
+
+.btn-nav-mobile {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none; }
+
+.close {
+  display: none; }
+
+.nav-lists {
+  display: flex;
+  gap: 2.8rem; }
+  .nav-lists .nav-list {
+    list-style: none; }
+  .nav-lists .nav-link:link {
+    text-decoration: none; }
+    .nav-lists .nav-link:link:hover, .nav-lists .nav-link:link:active {
+      color: #f15e50; }
+
+.grid-col {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  padding: 0rem 4rem 3.5rem 4rem; }
+  .grid-col img {
+    max-width: 57rem;
+    margin-bottom: 1rem; }
+  .grid-col .side-bar {
+    background-color: #00001a;
+    padding: 2.5rem 1.5rem 1rem 1.5rem; }
+  .grid-col .side-heading {
+    color: #e9ab53;
+    margin-bottom: 1.5rem; }
+  .grid-col .small-side-heading {
+    color: #fffdfa;
+    margin-bottom: 0.5rem; }
+  .grid-col .small-side-text {
+    color: #5d5f79;
+    margin-bottom: 2rem; }
+    .grid-col .small-side-text:last-child {
+      margin-bottom: 0; }
+  .grid-col hr {
+    margin-bottom: 2rem; }
+  .grid-col .text-box {
+    display: flex;
+    gap: 3rem;
+    line-height: 1.4; }
+    .grid-col .text-box h1 {
+      font-weight: 1000;
+      font-size: 2.5rem; }
+    .grid-col .text-box .small-text {
+      line-height: 1.5; }
+    .grid-col .text-box .btn-text {
+      position: absolute;
+      top: 39.99rem;
+      left: 25rem;
+      padding: 0.5rem 2rem;
+      border: none;
+      background-color: #f15e50;
+      color: #fffdfa;
+      font-size: 1rem;
+      cursor: pointer; }
+      .grid-col .text-box .btn-text:hover, .grid-col .text-box .btn-text:active {
+        background-color: #00001a; }
+
+.smaller-flex {
+  padding: 3.5rem 4rem 3.5rem 4rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem; }
+  .smaller-flex img {
+    width: 5rem; }
+  .smaller-flex .flex {
+    display: flex;
+    gap: 2rem; }
+    .smaller-flex .flex .flex-num {
+      color: #c5c6ce; }
+    .smaller-flex .flex .flex-head {
+      font-weight: 1000; }
+      .smaller-flex .flex .flex-head:hover, .smaller-flex .flex .flex-head:active {
+        color: #f15e50; }
+    .smaller-flex .flex p {
+      color: #5d5f79;
+      font-weight: 600; }
+
+@media (max-width: 85.125em) {
+  html {
+    font-size: 87.5%; }
+  body {
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 1; }
+  .nav-header {
+    padding: 3rem 10rem 0 10rem; }
+  .grid-col {
+    display: flex;
+    padding: 0rem 10rem 0 10rem;
+    gap: 1rem;
+    margin-bottom: 3rem; }
+    .grid-col img {
+      width: 52rem;
+      margin-bottom: 1rem; }
+    .grid-col .text-box {
+      gap: 2rem;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2rem; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1; }
+      .grid-col .text-box .btn-text {
+        top: 35.99rem;
+        left: 26.5rem; } }
+
+@media (max-width: 85.125em) and (max-width: 81.3125em) {
+  .grid-col {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem; }
+    .grid-col img {
+      max-width: 47rem;
+      margin-bottom: 1rem; }
+    .grid-col .text-box {
+      gap: 3rem;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2rem; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1; }
+      .grid-col .text-box .btn-text {
+        top: 35.99rem;
+        left: 30.99rem; } }
+
+@media (max-width: 85.125em) and (max-width: 74em) {
+  .grid-col {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 3rem; }
+    .grid-col img {
+      max-width: 40rem;
+      margin-bottom: 1rem; }
+    .grid-col .text-box {
+      gap: 3rem;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2.5rem; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1; }
+      .grid-col .text-box .btn-text {
+        top: 34.99rem;
+        left: 28.99rem; } }
+
+@media (max-width: 85.125em) and (max-width: 62.0625em) {
+  .grid-col {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0rem 3rem 2.8rem 3rem; }
+    .grid-col img {
+      max-width: 44rem;
+      margin-bottom: 1rem; }
+    .grid-col .text-box {
+      gap: 1rem;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2rem;
+        margin-bottom: 2rem; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1;
+        margin-top: 0; }
+      .grid-col .text-box .btn-text {
+        top: 34.99rem;
+        left: 17.99rem; } }
+
+@media (max-width: 85.125em) and (max-width: 50.75em) {
+  .btn-nav-mobile {
+    display: block;
+    z-index: 9999; }
+  .main-nav {
+    background-color: #fffdfa;
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+    pointer-events: none;
+    visibility: hidden; }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0); }
+  .nav-open .close {
+    display: block; }
+  .nav-open .menu {
+    display: none; }
+  .nav-lists {
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-left: 2rem;
+    flex-direction: column; }
+    .nav-lists .nav-list {
+      font-size: 1.5rem;
+      color: #c5c6ce;
+      font-weight: 500; }
+  .nav-header {
+    padding: 2.4rem 2rem 0rem 2rem; }
+  .grid-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding: 0rem 2rem 0rem 2rem; }
+    .grid-col img {
+      max-width: 100%;
+      margin-bottom: 1rem; }
+    .grid-col .side-bar {
+      background-color: #00001a;
+      padding: 2.5rem 1.5rem 1rem 1.5rem;
+      margin-top: 2rem; }
+    .grid-col .text-box {
+      flex-direction: column;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2rem;
+        margin-bottom: 0; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1;
+        margin-bottom: 2rem; }
+      .grid-col .text-box .btn-text {
+        top: 36.99rem;
+        left: 2rem; }
+  .smaller-flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem; }
+    .smaller-flex img {
+      width: 5rem; }
+    .smaller-flex .flex {
+      display: flex;
+      gap: 2rem; }
+      .smaller-flex .flex .flex-num {
+        color: #c5c6ce; } }
+
+@media (max-width: 85.125em) and (max-width: 33.75em) {
+  .grid-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding: 0rem 2rem 0rem 2rem; }
+    .grid-col img {
+      max-width: 100%;
+      margin-bottom: 1rem; }
+    .grid-col .side-bar {
+      background-color: #00001a;
+      padding: 2.5rem 1.5rem 1rem 1.5rem;
+      margin-top: 2rem; }
+    .grid-col .text-box {
+      flex-direction: column;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2rem;
+        margin-bottom: 0; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1;
+        margin-bottom: 2rem; }
+      .grid-col .text-box .btn-text {
+        top: 30.99rem;
+        left: 2rem; } }
+
+@media (max-width: 85.125em) and (max-width: 23.43em) {
+  .grid-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding: 0rem 2rem 0rem 2rem; }
+    .grid-col img {
+      max-width: 100%;
+      margin-bottom: 1rem; }
+    .grid-col .side-bar {
+      background-color: #00001a;
+      padding: 2.5rem 1.5rem 1rem 1.5rem;
+      margin-top: 2rem; }
+    .grid-col .text-box {
+      flex-direction: column;
+      line-height: 1.2; }
+      .grid-col .text-box h1 {
+        font-weight: 1000;
+        font-size: 2rem;
+        margin-bottom: 0; }
+      .grid-col .text-box .small-text {
+        line-height: 1.1;
+        margin-bottom: 2rem; }
+      .grid-col .text-box .btn-text {
+        top: 29.99rem;
+        left: 2rem;
+        padding: 0.5rem; } }
